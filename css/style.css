@@ -1,0 +1,139 @@
+* {
+  font-family: 'Roboto', sans-serif;
+  box-sizing: border-box;
+}
+
+/**** NAV STYLING ***/
+ ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #0d7377;
+ }
+
+li {
+  float: left;
+  font-size: 1.2em;
+}
+
+li a{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+#navbar{
+  position: fixed;
+  width: 100%;
+  
+}
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #0d7377;
+}
+
+/**** WELCOME SECTION ******/
+
+#welcome-section {
+  display: flex;
+  flex-direction: column;
+  background-color: #323232;
+  width: 100%;
+  height: 36rem;
+  align-items: center;
+  padding-top: 4em;
+ }
+
+#welcome-section h1 {
+  color: white;
+  text-align: center;
+}
+
+#welcome-section p {
+  color: #14ffec;
+  text-align: center;
+  font-size: 1.2em;
+}
+
+.info p {
+    color: white;
+    text-align: center;
+  }
+
+.info h4{
+    color: white;
+    text-align: center;
+  }
+
+.title{
+  background-color:  #0d7377;
+  color: white;
+  text-align: center;
+}
+
+.title-tagline {
+  background-color:  #0d7377;
+  color: white;
+  text-align: center;
+}
+
+
+/******FOOTER******/
+
+#contact{
+  margin: auto;
+  width: 100%;
+  height: 100vh;
+  text-align: center;
+  background-color: #323232;
+}
+
+.contact-header {
+  color: white;
+  text-decoration: none;
+  padding-top: 2.4em;
+}
+
+.contact-header > h2 {
+  text-decoration: none;
+  text-size: 4rem;
+}
+
+.contact-header > p {
+    font-size: 1.6rem;
+}
+
+/******* PROJECTS MEDIA QUERY *****/
+@media screen and (min-width: 1024px) {
+  footer .navigation .tablet-and-desktop {
+    display: flex;
+  }
+
+  #headline .container {
+    flex-direction: row;
+  }
+
+  .portfolio-item {
+    width: 33.3333333333%;
+    padding: 0 0.4em;
+  }
+
+  .portfolio-item:nth-child(2n) {
+    padding-right: 0.4em;
+  }
+
+  .portfolio-item:nth-child(2n+1) {
+    padding-left: 0.4em;
+  }
+
+  .portfolio-item:nth-child(3n) {
+    padding-right: 0;
+  }
+
+  .portfolio-item:nth-child(3n+1) {
+    padding-left: 0;
+  }
+
