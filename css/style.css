@@ -42,7 +42,7 @@ li a:hover {
   flex-direction: column;
   background-color: #323232;
   width: 100%;
-  height: 36rem;
+  height: 46rem;
   align-items: center;
   padding-top: 4em;
  }
@@ -50,6 +50,7 @@ li a:hover {
 #welcome-section h1 {
   color: white;
   text-align: center;
+  padding-top: 1.5rem;
 }
 
 #welcome-section p {
