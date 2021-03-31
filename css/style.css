@@ -1,6 +1,8 @@
 * {
   font-family: 'Roboto', sans-serif;
   box-sizing: border-box;
+}
+body {
   margin: auto;
 }
 
@@ -81,7 +83,7 @@ li a:hover {
   background-color:  #0d7377;
   color: white;
   text-align: center;
-  margin-boto
+  
 }
 
 .title-tagline {
