@@ -43,7 +43,7 @@ li a:hover {
 /**** WELCOME SECTION ******/
 
 .hero-image {
-  background-image: url("/hunter_ring.jpg");
+  background-image: url("/css/photos/hunter_ring.jpg");
   height: 500px;
   background-position: center;
   background-repeat: no-repeat;
@@ -93,7 +93,10 @@ li a:hover {
   text-align: center;
 }
 
-
+.project-img {
+  display: block;
+  margin: 0 auto;
+}
 
 /******FOOTER******/
 
@@ -120,41 +123,6 @@ li a:hover {
     font-size: 1.6rem;
 }
 
-/******* PROJECTS MEDIA QUERY *****/
-@media screen and (min-width: 1024px) {
-  footer .navigation .tablet-and-desktop {
-    display: flex;
-  }
-
-  #headline .container {
-    flex-direction: row;
-  }
-
-  .portfolio-item {
-    width: 33.3333333%;
-    padding:  0.4em;
-  }
-
-  .portfolio-item:nth-child(2n) {
-    padding-right: 0.4em;
-  }
-
-  .portfolio-item:nth-child(2n+1) {
-    padding-left: 0.4em;
-  }
-
-  .portfolio-item:nth-child(3n) {
-    padding-right: 0;
-  }
-
-  .portfolio-item:nth-child(3n+1) {
-    padding-left: 0;
-  }
-
-  .project-img {
-     padding-left: 34%;
-  }
-}
 
 
 /*****Social Icons******?
@@ -202,5 +170,44 @@ li a:hover {
   background:#0d7377;
   color: white;
 }
+
+
+
+
+/******* PROJECTS MEDIA QUERY *****/
+@media screen and (min-width: 1024px) {
+  footer .navigation .tablet-and-desktop {
+    display: flex;
+  }
+
+  #headline .container {
+    flex-direction: row;
+  }
+
+  .portfolio-item {
+    width: 33.3333333%;
+    padding:  0.4em;
+  }
+
+  .portfolio-item:nth-child(2n) {
+    padding-right: 0.4em;
+  }
+
+  .portfolio-item:nth-child(2n+1) {
+    padding-left: 0.4em;
+  }
+
+  .portfolio-item:nth-child(3n) {
+    padding-right: 0;
+  }
+
+  .portfolio-item:nth-child(3n+1) {
+    padding-left: 0;
+  }
+
+  
+}
+
+
 
 /***** TEST ITEMS *****/
