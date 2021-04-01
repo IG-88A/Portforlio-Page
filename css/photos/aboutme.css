@@ -1,0 +1,239 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+  }
+  
+  /**** NAV STYLING ***/
+   ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #0d7377;
+   }
+  
+  li {
+    float: left;
+    font-size: 1.2em;
+  }
+  
+  #navbar li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  #navbar{
+    position: fixed;
+    width: 100%;
+    padding: 10px;
+  
+  }
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: blue;
+  }
+  
+  /**** WELCOME SECTION ******/
+  
+  .hero-image {
+    background-image: url("/css/photos/hunter_ring.jpg");
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    z-index: -1;
+  }
+  
+  .hero-text {
+    text-align: center;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    background: black;
+    opacity: .85;
+    border-radius: 30px;
+    padding: 5px;
+  }
+  
+  .hero-text h3 {
+    text-align: center;
+    position: absolute;
+    top: 120%;
+    background: black;
+    opacity: .850;
+    border-radius: 0px;
+    padding: 5px;
+    border-radius: 5px;
+  }
+  
+  /*******PORTFOLIO************/
+  
+  .port-tag {
+    color: white;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  
+  .info p {
+      color: white;
+      text-align: center;
+    }
+  
+  .info h4{
+      color: white;
+      text-align: center;
+    }
+  
+  .title{
+    background-color:  #0d7377;
+    color: white;
+    text-align: center;
+    margin-boto
+  }
+  
+  .title-tagline {
+    background-color:  #0d7377;
+    color: white;
+    text-align: center;
+  }
+  
+  .project-img {
+    display: block;
+    margin: 0 auto;
+  }
+  
+  /******FOOTER******/
+  
+  #contact{
+    margin: auto;
+    width: 100%;
+    height: 400px;
+    text-align: center;
+    background-color: #323232;
+  }
+  
+  .contact-header {
+    color: white;
+    text-decoration: none;
+    padding-top: 2.4em;
+  }
+  
+  .contact-header > h2 {
+    text-decoration: none;
+    font-size: 4rem;
+  }
+  
+  .contact-header > p {
+      font-size: 1.6rem;
+  }
+  
+  
+  
+  /*****Social Icons******?
+  
+  /* Style all font awesome icons */
+  .fa {
+    font-size: 50px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 3px;
+  }
+  
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  /* Set a specific color for each brand */
+  
+  
+  /* Twitter */
+  .fa-twitter {
+    background:#0d7377;
+    color: white;
+  }
+  
+  /* Linkedin */
+  .fa-linkedin {
+      background:#0d7377;
+      color: white;
+  }
+  
+  /* Github*/
+  .fa-github {
+    background:#0d7377;
+    color: white;
+  }
+  
+  /* Instagram */
+  .fa-instagram {
+    background:#0d7377;
+    color: white;
+  }
+  
+  /* EMAIL */
+  
+  .fa-envelope-o {
+    background:#0d7377;
+    color: white;
+  }
+  
+  
+  
+  
+  /******* PROJECTS MEDIA QUERY *****/
+  @media screen and (min-width: 1024px) {
+    footer .navigation .tablet-and-desktop {
+      display: flex;
+    }
+  
+    #headline .container {
+      flex-direction: row;
+    }
+  
+    .portfolio-item {
+      width: 33.3333333%;
+      padding:  0.4em;
+    }
+  
+    .portfolio-item:nth-child(2n) {
+      padding-right: 0.4em;
+    }
+  
+    .portfolio-item:nth-child(2n+1) {
+      padding-left: 0.4em;
+    }
+  
+    .portfolio-item:nth-child(3n) {
+      padding-right: 0;
+    }
+  
+    .portfolio-item:nth-child(3n+1) {
+      padding-left: 0;
+    }
+  
+    .hero-text {
+      text-align: center;
+      position: absolute;
+      top: 45%;
+      left: 20%;
+      transform: translate(-50%, -50%);
+      color: white;
+    }
+    
+  
+  }
+  
+  
+  
+  /***** TEST ITEMS *****/
