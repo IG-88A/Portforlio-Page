@@ -48,11 +48,61 @@
       at the end of the day! 
       <br>
       <br>
-      My goal is to become a Web Developer professionally and to maybe transfer my love of coding to my first, love
+      My goal is to become a Web Developer professionally and to maybe transfer my love of coding to my first love,
       cars and motorsports. 
     </p>
+  </div>
   <div class="column">
-    <img class="about-me-img" src=""/>IMAGE</img>
+    <div class="slideshow-container" id="slide-1">
+
+      <div class="mySlides fade">
+        <div class="numbertext">1 / 3</div>
+        <img src="/css/photos/hunter_ring.jpg" width="75%" height="75%">
+        <div class="text"></div>
+      </div>
+      
+      <div class="mySlides fade">
+        <div class="numbertext">2 / 3</div>
+        <img src="/css/photos/hunter_ring.jpg" width="75%" height="75%">
+        <div class="text">Caption Two</div>
+      </div>
+      
+      <div class="mySlides fade">
+        <div class="numbertext">3 / 3</div>
+        <img src="/css/photos/bogie.png" width="75%" height="75%">
+        <div class="text">Caption Three</div>
+      </div>
+      
+      </div>
+      <br>
+      
+       <div style="text-align:center">
+        <span class="dot"></span> 
+        <span class="dot"></span> 
+        <span class="dot"></span> 
+
+      </div>
+      <script>
+        var slideIndex = 0;
+        showSlides();
+        
+        function showSlides() {
+          var i;
+          var slides = document.getElementsByClassName("mySlides");
+          var dots = document.getElementsByClassName("dot");
+          for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";  
+          }
+          slideIndex++;
+          if (slideIndex > slides.length) {slideIndex = 1}    
+          for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+          }
+          slides[slideIndex-1].style.display = "block";  
+          dots[slideIndex-1].className += " active";
+          setTimeout(showSlides, 4000); // Change image every 2 seconds
+        }
+        </script>
   </div>
 </div>
 <br>
@@ -61,10 +111,10 @@
     <img class="about-me-img" src=""/>IMAGE</img>
   </div>
   <div class="column-2">
-    <h2 class="about-title-">Hobbies</h2>
-    <p class="about-text">Like I said before, one of my loves is racing or driving on track (the header photo is me at the Nurburgring in 2016). 
-      I am thankful that we live in day where sim racing exists! Due to my health issues and the global pandemic, it seems like its the hobby
-</p>
+    <h2 class="about-title">Hobbies</h2>
+    <p class="about-text">Like I said before, one of my loves is racing or driving on track (the header photo is me at the Nurburgring in 2016),watching racing on TV,
+      or spending sometime on my raicng sim at home. I am thankful that we live in day where sim racing exists! Due to my health issues and the global pandemic! Outside 
+      of motorsports, I love to read, learning the banjo, and being from Atlanta, Georgia I am a Braves fan!
   </div>
   </div>
 </div>
