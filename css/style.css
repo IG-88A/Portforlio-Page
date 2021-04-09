@@ -19,6 +19,7 @@ body {
 li {
   float: left;
   font-size: 1.2em;
+
 }
 
 #navbar li a{
@@ -78,6 +79,9 @@ li a:hover {
 
 /*******PORTFOLIO************/
 
+.portfolio-item {
+}
+
 .port-tag {
   color: white;
   text-align: center;
@@ -86,12 +90,12 @@ li a:hover {
 
 .info p {
     color: white;
-    text-align: center;
   }
 
 .info h4{
     color: white;
     text-align: center;
+    text-decoration: none;
   }
 
 .title{
@@ -110,6 +114,11 @@ li a:hover {
 .project-img {
   display: block;
   margin: 0 auto;
+}
+
+h4 a{
+  color: white;
+  text-decoration: none;
 }
 
 /******FOOTER******/
@@ -198,12 +207,12 @@ li a:hover {
   }
 
   #headline .container {
-    flex-direction: row;
+    flex-direction: column;
   }
 
   .portfolio-item {
     width: 33.3333333%;
-    padding:  0.4em;
+    padding-bottom: 4em;
   }
 
   .portfolio-item:nth-child(2n) {
@@ -211,7 +220,7 @@ li a:hover {
   }
 
   .portfolio-item:nth-child(2n+1) {
-    padding-left: 0.4em;
+   /*padding-right: .4em;*/
   }
 
   .portfolio-item:nth-child(3n) {
@@ -230,6 +239,7 @@ li a:hover {
     transform: translate(-50%, -50%);
     color: white;
   }
+  
   
 
 }
