@@ -275,9 +275,6 @@ h4 a{
 
 }
 
-.about-me-img {
-  float: right;
-}
 /* Clear floats after the columns */
 .row:after {
   content: "";
